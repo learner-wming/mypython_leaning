@@ -1,6 +1,6 @@
 # 输出
 
-print(type("你好 我是王铭"))  #字符串
+print(type("你好 我是好学习的小直"))  #字符串
 print(type(2333))             #整数
 print(type(6.77))             #小数
 print(type(True))             #布尔值
@@ -43,3 +43,6 @@ shi=int（time/60）
 fen=time%60
 print(shi+"时"+fen+"分")
 #第一次提交代码到gtihub
+print("大家都很努力 我也要加油")
+print("虽然说，是已经多次去进行 但是我现在的能力水准的话实在是 我自己感觉还不行")
+print("所以我就更要努力了啊啊啊啊啊")
