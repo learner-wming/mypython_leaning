@@ -57,7 +57,8 @@ xinxi = {}
 name=input("姓名")
 sex=input("性别")
 age=input("年龄")
-xinxi.update(xname=name)
-xinxi.update(xsex=sex)
-xinxi.update(xsge=age)
+# xinxi.update(xname=name)
+# xinxi.update(xsex=sex)
+# xinxi.update(xsge=age)
+xinxi.update(name=name,sex=sex,age=age)     #update这个方法中 可以新建/修改多个值
 print(xinxi)
