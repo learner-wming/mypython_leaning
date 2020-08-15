@@ -56,17 +56,41 @@
 #新的问题就是 不知道为什么成功之后 还跳回第一个循环
 #好了 我在和第一个while的平级 的最后加了一个exit()  成功了！
 
-#老师的
-u= input("账号：")
-p= input("密码：")
-if len(u)>=5 and len(u)<=8:
-    if u[0] in "qwertyuioplkjhgfdsazxcvbnm":
-        if len(p)>=6 and len(p)<=12:
-            print("注册成功",{u:p})
-        else:
-            print("请输入6-12位密码")
+# #老师的
+# u= input("账号：")
+# p= input("密码：")
+# if len(u)>=5 and len(u)<=8:
+#     if u[0] in "qwertyuioplkjhgfdsazxcvbnm":
+#         if len(p)>=6 and len(p)<=12:
+#             print("注册成功",{u:p})
+#         else:
+#             print("请输入6-12位密码")
 
-    else:
-        print("账号必须是小写字母开头")
-else:
-    print("账号必须是5-8为")
+#     else:
+#         print("账号必须是小写字母开头")
+# else:
+#     print("账号必须是5-8为")
+
+
+# def checkname(u):
+#     if len(u)>=5 and len(u)<=8:
+#         if u[0] in "qwertyuioplkjhgfdsazxcvbnm":
+#             print("ok")
+#         else:
+#             print("账号必须是小写字母开头")
+#     else:
+#         print("账号必须是5-8为")
+
+
+# checkname("qjfosn")
+
+# # 两个数相加
+# def jia(a,b):
+#     c=a+b
+#     print("两个数的和是",c)
+
+# yi=int(input("请输入第一个数："))
+# er=int(input("请输入第二个数："))
+# jia(yi,er)
+
+
